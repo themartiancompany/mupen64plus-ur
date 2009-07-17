@@ -1,4 +1,3 @@
-# $Id: PKGBUILD,v 1.5 2009/01/06 11:02:29 allan Exp $
 # Maintainer: Allan McRae <allan@archlinux.org>
 # Contributor: Zephyr
 
