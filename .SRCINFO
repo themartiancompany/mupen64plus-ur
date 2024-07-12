@@ -1,0 +1,26 @@
+pkgbase = mupen64plus
+	pkgdesc = Nintendo64 Emulator
+	pkgver = 2.5
+	pkgrel = 27
+	url = https://github.com/mupen64plus/mupen64plus-core
+	arch = x86_64
+	license = GPL
+	makedepends = boost
+	makedepends = mesa
+	depends = boost-libs
+	depends = freetype2
+	depends = glu
+	depends = libgl
+	depends = libpng
+	depends = libsamplerate
+	depends = sdl2
+	depends = zlib
+	depends = hicolor-icon-theme
+	source = https://github.com/mupen64plus/mupen64plus-core/releases/download/2.5/mupen64plus-bundle-src-2.5.tar.gz
+	source = 010-mupen64plus-ui-console-pie.patch
+	source = 020-mupen64plus-core-gcc10-fix.patch
+	sha256sums = 9c75b9d826f2d24666175f723a97369b3a6ee159b307f7cc876bbb4facdbba66
+	sha256sums = 0b674779949ca90db9f156b56dd9d7be9847354f5b07ec73aa3a89dde79d6b6d
+	sha256sums = f84f262bcf2b748ccded4443735caba92926241f9238f545a621009f6ae64ef7
+
+pkgname = mupen64plus
